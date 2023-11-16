@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <DebuggerFlavor>DbgengKernelDebugger</DebuggerFlavor>
+    <DbgengRemoteMachineName>DBG</DbgengRemoteMachineName>
+    <SignMode>TestSign</SignMode>
+    <DbgengKernelMachineName>192.168.227.144</DbgengKernelMachineName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <DebuggerFlavor>DbgengKernelDebugger</DebuggerFlavor>
+    <SignMode>TestSign</SignMode>
+    <DbgengKernelMachineName>192.168.227.144</DbgengKernelMachineName>
+  </PropertyGroup>
+</Project>
